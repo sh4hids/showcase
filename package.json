@@ -17,7 +17,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "audit": "npm audit"
+    "audit": "npm audit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://shahid.pro"
+  "homepage": "https://shahid.pro",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
