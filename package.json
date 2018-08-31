@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://shahid.pro/showcase",
+  "homepage": "https://shahid.pro",
   "devDependencies": {
     "gh-pages": "^1.2.0"
   }
