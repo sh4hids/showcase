@@ -1,4 +1,5 @@
 import Link from './Link';
+import Image from './Image';
 import LinkButton from './LinkButton';
 import ListItem from './ListItem';
 import Text from './Text';
@@ -12,6 +13,7 @@ import Container from './Container';
 
 export {
   Link,
+  Image,
   LinkButton,
   Text,
   TitleBig,

@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 const Link = styled.a`
   text-decoration: none;
-  color: #21AAE2;
+  color: #21aae2;
 
   &:hover {
-    color: #3DC3F9;
+    color: #3dc3f9;
   }
 
   &:visited {
-    color: #13619D;
+    color: #13619d;
   }
 `;
 

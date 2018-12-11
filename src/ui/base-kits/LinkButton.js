@@ -2,17 +2,18 @@ import styled from 'styled-components';
 import Link from './Link';
 
 const LinkButton = styled(Link)`
-  background: #21AAE2;
-  color: #FFFFFF;
-  padding: 10px 16px;
+  background: #21aae2;
+  color: #ffffff;
+  padding: 6px 16px;
+  border-radius: 4px;
 
   &:visited {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   &:hover {
-    background: #3DC3F9;
-    color: #FFFFFF;
+    background: #3dc3f9;
+    color: #ffffff;
   }
 `;
 
